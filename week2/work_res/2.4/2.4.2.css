@@ -1,0 +1,70 @@
+header img {
+    width: 70px;
+    height: 70px;
+
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 70px;
+}
+
+nav {
+    padding: 30px;
+    text-align: center;
+
+    border-top: 2px solid blueviolet;
+    border-bottom: 2px solid blueviolet;
+}
+
+nav a {
+    margin-left: 100px;
+
+    color: blueviolet;
+
+    text-decoration: none;
+    font-size: 25px;
+}
+
+footer {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+footer p {
+    background-color: white;
+    padding: 5px;
+}
+
+.post {
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.posts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.posts img {
+    width: 200;
+    height: 200;
+}
+
+.posts p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.posts h2 {
+    text-align: center;
+
+    background-color: aqua;
+    color: blueviolet;
+
+    font-size: 35px;
+}

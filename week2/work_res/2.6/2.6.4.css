@@ -1,0 +1,9 @@
+.lego_man {
+    width: 100px;
+    height: 100px;
+}
+
+.lego_man:hover {
+    transform: translateY(100px) translateX(200px);
+    transition: all 5s linear;
+}
