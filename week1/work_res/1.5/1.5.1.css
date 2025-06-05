@@ -1,0 +1,59 @@
+header {
+    text-align: left;
+    padding: 10px;
+    background-color: darksalmon;
+}
+
+footer {
+    text-align: center;
+    background-color: darksalmon;
+}
+
+header a {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    background-color: white;
+}
+
+table img {
+    width: 200;
+    height: 200;
+}
+
+table {
+    text-align: center;
+    font-size: 20px;
+    border-collapse: collapse;
+    background-color: whitesmoke;
+}
+
+td {
+    border: 1px solid black;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.style_p {
+    color: peru;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}

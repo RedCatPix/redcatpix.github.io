@@ -1,0 +1,70 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header {
+    border-bottom: 2px dashed navy;
+}
+
+nav {
+    margin: 20px;
+    margin-bottom: 30px;
+
+    text-align: right;
+}
+
+nav a {
+    font-size: 20px;
+    padding-left: 40px;
+
+    text-decoration: none;
+
+    color: navy;
+}
+
+
+
+h1 {
+    font-size: 45px;
+
+    text-align: center;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 500px;
+}
+
+.gallery img {
+    width: 150px;
+    height: 200px;
+}
+
+
+
+.text {
+    width: 300px;
+
+    font-size: 40px;
+
+    color: lightblue;
+
+    /* border: 1px solid; */
+}
+
+.text .right {
+    text-align: right;
+}

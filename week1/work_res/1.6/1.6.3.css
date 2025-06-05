@@ -1,0 +1,40 @@
+p {
+    border: 3px solid peru;
+}
+
+img {
+    border: 3px solid peru;
+    width: 200;
+    height: 200;
+}
+
+.big_img {
+    width: 410;
+    height: 300;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    background-color: peru;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+td {
+    border: 1px solid orange;
+}
+
+div {
+    text-align: center;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}

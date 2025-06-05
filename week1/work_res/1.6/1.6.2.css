@@ -1,0 +1,37 @@
+p {
+    font-size: 20px;
+    background-color: lightblue;
+}
+
+a {
+    font-size: 20px;
+    color: black;
+    background-color: lightblue;
+    border: 2px darkblue;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 20px;
+    text-align: center;
+    background-color: lightblue;
+    border: 1px solid brown;
+}
+
+td {
+    border: 1px solid brown;
+}
+
+img {
+    border: 2px solid brown;
+    width: 300px;
+    height: 200px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: darkblue;
+}

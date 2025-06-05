@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(29, 29, 52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+}
+
+.not-found {
+    background-color: rgb(9, 3, 33);
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    /* box-shadow: 0 2px 4px rgba(248, 245, 245, 0.1); */
+}
+
+h1 {
+    font-size: 12vw;
+}
+
+p {
+    font-size: 2.2vw;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+@media screen and (max-width: 620px) {
+
+    h1 {
+        font-size: 17vw;
+    }
+
+    p {
+        font-size: 3vw;
+    }
+
+}

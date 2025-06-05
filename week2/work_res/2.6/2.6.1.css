@@ -1,0 +1,122 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header {
+    background-color: blue;
+}
+
+header img {
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+
+
+nav {
+    padding-bottom: 10px;
+}
+
+nav a {
+    margin-left: 40px;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 25px;
+
+    background-color: white;
+    color: black;
+
+    text-decoration: none;
+}
+
+.spec_a {
+    background-color: aquamarine;
+}
+
+
+
+h1 {
+    font-size: 50px;
+    padding-bottom: 5px;
+    margin-bottom: 70px;
+
+    text-align: center;
+
+    border-bottom: 2px solid royalblue;
+}
+
+h2 {
+    padding-left: 18%;
+    margin-bottom: 40px;
+    font-size: 35px;
+
+    color: blueviolet;
+
+    /* border: 1px solid; */
+}
+
+
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+
+    background-color: lightblue;
+}
+
+footer p {
+    padding: 5px;
+
+    background-color: white;
+}
+
+.post {
+    width: 290px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    border: 2px solid royalblue;
+    border-radius: 15px;
+}
+
+.post:hover {
+    box-shadow: 0px 5px 5px 5px royalblue;
+}
+
+.post .icon {
+    width: 70px;
+    height: 70px;
+
+    bottom: 35px;
+    left: 40px;
+
+    position: relative;
+}
+
+.posts {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    /* border: 1px solid; */
+}
+
+.posts img {
+    width: 200;
+    height: 200;
+}
+
+.posts p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.posts i {
+    background-color: darkblue;
+    color: white;
+}

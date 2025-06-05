@@ -1,0 +1,26 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: darkorchid;
+    color: white;
+}
+
+h1 {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.fish {
+    display: flex;
+}
+
+.fish img {
+    width: 300px;
+    height: 200px;
+}
+

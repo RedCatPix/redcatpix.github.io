@@ -1,0 +1,20 @@
+h1 {
+    color: #800080;
+    text-align: center;
+}
+
+p {
+    size: 20px;
+    border: 2px solid #800080;
+}
+
+.subtitle {
+    color: royalblue;
+    font-size: 30px;
+}
+
+img {
+    border-top: 10px solid lightblue;
+    border-right: 10px solid lightblue;
+    border-left: 10px solid lightblue;
+}

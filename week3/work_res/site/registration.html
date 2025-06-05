@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/registration.css">
+        <title>Регистрация - Моя семья &mdash; моя история</title>
+    </head>
+    
+    <body>
+        <header>
+            <div class="hidden-nav">
+                <img src="images/logo.png" alt="">
+                <h1>Моя семья &mdash; моя история</h1>
+            </div>
+
+            <div class="topnav-container">
+                <div class="for-hide">
+                    <img src="images/logo.png" alt="">
+                    <h1>Моя семья <br> моя история</h1>
+                </div>
+                <nav class="flex-nav">
+                    <input type="checkbox" id="menu-toggle">
+                    <label for="menu-toggle" class="menu">&#9776;</label>
+                    <div class="nav-links">
+                        <a href="index.html">Главная</a>
+                        <a href="#contacts">Контакты</a>
+                        <a href="schedule.html">Расписание конкурсов</a>
+                        <a href="competition.html">Конкурс</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="reg-container">
+                <h1>Регистрация</h1>
+                <form class="reg-form"> 
+                    <div class="form-row">
+                        <div class="form-cell">
+                            <label for="f-name">Имя</label>
+                            <input type="text" id="f-name" required>
+                        </div>
+                        <div class="form-cell">
+                            <label for="f-name">Фамилия</label>
+                            <input type="text" id="l-name" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-cell">
+                            <label for="reg-email">Email</label>
+                            <input type="email" name="reg-email" id="reg-email" required>
+                        </div>
+                        <div class="form-cell">
+                            <label for="reg-age">Возраст</label>
+                            <input type="number" name="reg-age" id="reg-age" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-cell">
+                            <label for="reg-psw">Пароль</label>
+                            <input type="password" name="reg-psw" id="reg-psw" required>
+                        </div>
+                        <div class="form-cell">
+                            <label for="reg-psw-ag">Повторите пароль</label>
+                            <input type="password" name="reg-psw-ag" id="reg-psw-ag" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-cell">
+                            <label>Пол</label>
+                            <label><input type="radio" name="gender" id="" required> Мужской</label>
+                            <label><input type="radio" name="gender" id=""> Женский</label>
+                        </div>
+                        <div class="form-cell">
+                            <div class="file-frame">
+                                <label for="myfile">Загрузить семейную фотографию</label>
+                                <input type="file" name="myfile" id="myfile" class="my" required>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="add-mem">
+                        <h3>
+                            Добавить члена семьи 
+                            <span><input type="button" value="&#x2717;" class="rej"></span>
+                            <span><input type="button" value="&#10003;" class="acs"></span>
+                        </h3>
+                        <div class="form-row">
+                            <div class="form-cell">
+                                <label for="f-name-mem">Имя</label>
+                                <input type="text" id="f-name-mem">
+                            </div>
+                            <div class="form-cell">
+                                <label for="l-name-mem">Фамилия</label>
+                                <input type="text" id="l-name-mem">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-cell">
+                                <label for="age-mem">Возраст</label>
+                                <input type="number" name="age-mem" id="age-mem">
+                            </div>
+                            <div class="form-cell">
+                                <label for="gender">Пол</label>
+                                <select name="gender" id="gender" p>
+                                    <option value="male">Мужской</option>
+                                    <option value="famale">Женский</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <label class="pers-dat"><input type="checkbox" required>Я даю согласие на обработку персональных данных</label>
+                    <input type="submit" value="Зарегистрироваться">
+
+                    
+
+                </form>
+            </div>
+        </main>
+        
+        <footer>
+            <div class="footer-container">
+                <div class="contacts" id="contacts">
+                    <h3>Контакты</h3>
+                    <p>Телефон: <a href="tel:+74842234567">+7 (4842) 23-45-67</a></p>
+                    <p>Email: <a href="mailto:family@cosmos.ru">family@cosmos.ru</a></p>
+                </div>
+                <div class="site-nav">
+                    <h3>Навигация по сайту</h3>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="index-light.html">Главная-светлая </a></li>
+                        <li><a href="schedule.html">Расписание конкурсов</a></li>
+                        <li><a href="competition.html">Конкурс</a></li>
+                        <li><a href="404.html">Страница не найдена</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

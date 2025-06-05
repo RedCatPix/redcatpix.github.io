@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/account.css">
+        <title>Моя семья &mdash; мой космос - Аккаунт</title>
+    </head>
+    
+    <body>
+        <header>
+            <div class="hidden-nav">
+                <img src="images/logo.png" alt="">
+                <h1>Моя семья &mdash; моя история</h1>
+            </div>
+
+            <div class="topnav-container">
+                <div class="for-hide">
+                    <img src="images/logo.png" alt="">
+                    <h1>Моя семья <br> моя история</h1>
+                </div>
+                <nav class="flex-nav">
+                    <input type="checkbox" id="menu-toggle">
+                    <label for="menu-toggle" class="menu">&#9776;</label>
+                    <div class="nav-links">
+                        <a href="index.html">Главная</a>
+                        <a href="#contacts">Контакты</a>
+                        <a href="schedule.html">Расписание конкурсов</a>
+                        <a href="competition.html">Конкурс</a>
+                        <a href="index.html">Выйти из аккаунта</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="rec-container">
+                <h2>Записаться на конкурс</h2>
+                <form class="rec-form">
+                    <div class="form-row">
+                        <div class="form-cell">
+                            <label for="sel-cont">Выберите конкурс</label>
+                            <select name="sel-cont" id="sel-cont">
+                                <option value="">Семейный рецепт</option>
+                                <option value="">История из жизни</option>
+                                <option value="">Мгновения семьи</option>
+                                <option value="">Семейное караоке</option>
+                                <option value="">История семьи</option>
+                                <option value="">Моё семейное древо</option>
+                            </select>
+                        </div>
+                        <div class="form-cell">
+                            <label for="dat">Выберите дату</label>
+                            <input type="date" name="dat" id="dat" value="2025-07-08" min="2025-07-08" max="2025-07-08">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-cell">
+                            <label for="time">Выберите время</label>
+                            <select name="" id="">
+                                <option value="">9:00</option>
+                                <option value="">10:00</option>
+                                <option value="">11:00</option>
+                                <option value="">12:00</option>
+                                <option value="">13:00</option>
+                                <option value="">14:00</option>
+                                <option value="">15:00</option>
+                                <option value="">16:00</option>
+                                <option value="">17:00</option>
+                                <option value="">18:00</option>
+                                <option value="">19:00</option>
+                                <option value="">20:00</option>
+                                <option value="">21:00</option>
+                            </select>
+                        </div>
+                        <div class="form-cell">
+                            <label for="num">Сколько человек будет учатсовать</label>
+                            <input type="number" name="num" id="num">
+                        </div>
+                    </div>
+
+                    <input type="submit" value="Записаться">
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-container">
+                <div class="contacts" id="contacts">
+                    <h3>Контакты</h3>
+                    <p>Телефон: <a href="tel:+74842234567">+7 (4842) 23-45-67</a></p>
+                    <p>Email: <a href="mailto:family@cosmos.ru">family@cosmos.ru</a></p>
+                </div>
+                <div class="site-nav">
+                    <h3>Навигация по сайту</h3>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="index-light.html">Главная-светлая </a></li>
+                        <li><a href="schedule.html">Расписание конкурсов</a></li>
+                        <li><a href="competition.html">Конкурс</a></li>
+                        <li><a href="404.html">Страница не найдена</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

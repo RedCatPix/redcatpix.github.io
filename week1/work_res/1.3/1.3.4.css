@@ -1,0 +1,16 @@
+tr {
+    border: 1px solid whitesmoke;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.title_cells {
+    background-color: green;
+    color: white;
+}
+
+.cells_orange {
+    background-color: darksalmon;
+}

@@ -1,0 +1,81 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header {
+    background-image: linear-gradient(lightblue, white);
+}
+
+nav {
+    margin: 20px;
+    padding: 40px;
+    margin-bottom: 30px;
+
+    text-align: right;
+}
+
+nav a {
+    font-size: 20px;
+    padding-left: 40px;
+
+    text-decoration: none;
+
+    color: blueviolet;
+}
+
+
+
+h1 {
+    font-size: 45px;
+
+    text-align: center;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 500px;
+}
+
+.gallery img {
+    width: 150px;
+    height: 200px;
+
+    opacity: 0.5;
+}
+
+
+
+.text {
+    width: 300px;
+
+    font-size: 40px;
+
+    color: lightblue;
+}
+
+.text p:hover {
+    font-size: 45px;
+    color: navy;
+}
+
+.text .right {
+    text-align: right;
+}
+
+.text .right:hover {
+    color: darkorange;
+}
+

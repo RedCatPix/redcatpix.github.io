@@ -1,0 +1,46 @@
+header {
+    background-color: lightgreen;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    background-color: aliceblue;
+    color: green;
+}
+
+footer p {
+    padding: 30px;
+}
+
+main p {
+    border-left: 10px dotted green;
+    border-right: 10px dotted green;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 99%;
+    margin: 5px;
+}
+
+td {
+    border: 3px dotted green;
+}
+
+table a {
+    color: black;
+}
+
+table img {
+    width: 100;
+    height: 100;
+}
+
+h1 {
+    text-align: center;
+}

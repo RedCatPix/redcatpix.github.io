@@ -1,0 +1,44 @@
+header img {
+    width: 70px;
+    height: 70px;
+}
+
+h1 img {
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    text-align: center;
+}
+
+header p {
+    background-color: white;
+    color: blue;
+}
+
+main p {
+    background-color:  #f7ec7fff;
+}
+
+p img {
+    width: 100px;
+    height: 100px;
+}
+
+footer p {
+    color: blue;
+    background-color: white;
+}
+
+footer {
+    background-color: peru;
+}
+
+header {
+    background-color: moccasin;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}

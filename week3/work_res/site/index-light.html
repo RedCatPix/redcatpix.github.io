@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/index-light.css">
+        <title>Моя семья &mdash; моя история - Главная</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="hidden-nav">
+                <img src="images/logo.png" alt="">
+                <h1>Моя семья &mdash; моя история</h1>
+            </div>
+
+            <div class="topnav-container">
+                <div class="for-hide">
+                    <img src="images/logo.png" alt="">
+                    <h1>Моя семья <br> моя история</h1>
+                </div>
+                <nav class="flex-nav">
+                    <input type="checkbox" id="menu-toggle">
+                    <label for="menu-toggle" class="menu">&#9776;</label>
+                    <div class="nav-links">
+                        <a href="registration.html">Регистрация</a>
+                        <a href="#auth">Авторизация</a>
+                        <a href="account.html">Личный кабинет</a>
+                        <a href="#about">О нас</a>
+                        <a href="#cont">Конкурсы</a>
+                        <a href="#srch">Поиск</a>
+                        <a href="#contacts">Контакты</a>
+                        <a href="index.html">Тёмная тема</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="greetings">
+                <h2>Приветственное видео</h2>
+                <iframe src="https://www.youtube.com/embed/SvPMNhu31is"></iframe>
+            </div>
+
+            <div class="search-container">
+                <h2 id="srch">Найдите интересующий конкурс</h2>
+                <form class="search-field">
+                    <input id="search" type="text" placeholder="Введите название или описание...">
+                    <button id="search-button"><img src="images/magnifying-glass.png" alt=""></button>
+                </form>
+            </div>
+
+            <div class="authorization-container">
+                <h2 id="auth">Авторизация</h2>
+                <form class="authorization-form">
+                    <label for="auth-email">Email</label>
+                    <input type="email" name="auth-email" id="auth-email" placeholder="Введите email" required>
+
+                    <label for="auth-password">Пароль</label>
+                    <input type="password" name="auth-password" id="auth-password" placeholder="Введите пароль" required>
+                    <a href="">Забыли пароль?</a>
+
+                    <input type="submit" value="Войти" id="auth-button">
+                </form>
+            </div>
+
+            <div class="about-us">
+                <h2 id="about">О нас</h2>
+                <div class="about-us-inform">
+                    <img src="images/family.jpg" alt="">
+                    <p>
+                        Наш проект создан для тех, кто хочет сохранить память о своих близких и традициях <br>
+                        Мы считаем, что каждая семья уникальна и важна, поэтому взяли на себя такую роль &mdash; помогать помнить <br>
+                        <br> 
+                        <br>
+                        Мы вдохновляем людей делиться историями: будь то воспоминания о детстве, редкие семейные фотографии или давно забытые хроники рода <br>
+                        Через тексты, образы и голоса мы собираем живую мозаику, где каждая история становится частью большого семейного полотна <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="popular-contests">
+                <h2>Популярные конкурсы</h2>
+                <img src="images/pop-contest.jpg" alt="">
+                <div class="description">
+                    <h3>
+                        Моё семейное древо 
+                        <span class="orange-star">★</span>
+                        <span class="orange-star">★</span>
+                        <span class="orange-star">★</span>
+                        <span class="orange-star">★</span>
+                        <span class="orange-star">★</span>
+                        (<a href="competition.html">подробнее</a>)
+                    </h3>
+                    <p>
+                        Конкурс посвящён памяти, родословной и традициям! Это уникальная 
+                        возможность заглянуть в прошлое своей семьи и узнать про прошлое других
+                        участников
+                    </p>
+                </div>
+                <div class="prev-next">
+                    <a class="prev">❮</a>
+                    <a class="next">❯</a>
+                </div>
+            </div>
+
+            <div class="contests-container">
+                <h2 id="cont">Конкурсы</h2>
+                <div class="contests-block">
+                    <div class="contest">
+                        <img src="images/cook.jpg" alt="">
+                        <h3>
+                            Семейный рецепт 
+                            <span class="orange-star">★</span>
+                            <span class="orange-star">★</span>
+                            <span class="orange-star">★</span>
+                            <span class="orange-star">★</span>
+                            <span class="star">★</span>
+                        </h3>
+                        <p>
+                            У каждого из нас есть то самое блюдо, с которым связаны тёплые воспоминания детства. 
+                            В конкурсе вам нужно поедлиться кулинарным шедевром, который передаётся в вашей семье из поколения в поколение!
+                        </p>
+                        <p class="members">(72 участника)</p>
+                        <button>Участвовать</button>
+                    </div>
+                    <div class="contest">
+                        <img src="images/disc.jpg" alt="">
+                        <h3>
+                            История из жизни
+                            <span class="orange-star">★</span>
+                            <span class="orange-star">★</span>
+                            <span class="orange-star">★</span>
+                            <span class="orange-star">★</span>
+                            <span class="star">★</span>
+                        </h3>
+                        <p>
+                            У каждой семьи есть трогательная, смешная или поучительная история, которую хочется рассказать. 
+                            Это мог быть неожиданный случай в отпуске, забавный разговор с ребёнком и многое другое. Поделитесь этой историей с нами!
+                        </p>
+                        <p class="members">(124 участника)</p>
+                        <button>Участвовать</button>
+                    </div>
+                    <div class="contest">
+                        <img src="images/moment.jpg" alt="">
+                        <h3>
+                            Мгновения семьи
+                            <span class="orange-star">★</span>
+                            <span class="orange-star">★</span>
+                            <span class="orange-star">★</span>
+                            <span class="orange-star">★</span>
+                            <span class="orange-star">★</span>
+                        </h3>
+                        <p>
+                            Семья — это моменты: утренний завтрак, прогулка в парке, вечерние разговоры, уют в доме.
+                            Поймайте в кадр одно или несколько мгновений и поделитесь ими. И не забудьте описать чувства — это самое важное!
+                        </p>
+                        <p class="members">(117 участников)</p>
+                        <button>Участвовать</button>   
+                    </div>
+                    <div class="contest">
+                        <img src="images/karaoke.png" alt="">
+                        <h3>
+                            Семейное караоке
+                            <span class="orange-star">★</span>
+                            <span class="orange-star">★</span>
+                            <span class="orange-star">★</span>
+                            <span class="orange-star">★</span>
+                            <span class="star">★</span>
+                        </h3>
+                        <p>
+                            Вы поёте всей семьёй? Тогда этот конкурс для вас! Весёлые выступления,
+                            любимые песни и семейное настроение — запишите своё музыкальное видео и участвуйте!
+                        </p>
+                        <p class="members">(87 участников)</p>
+                        <button>Участвовать</button>
+                    </div>
+                    <div class="contest">
+                        <img src="images/story.jpg" alt="">
+                        <h3>
+                            История семьи
+                            <span class="orange-star">★</span>
+                            <span class="orange-star">★</span>
+                            <span class="orange-star">★</span>
+                            <span class="orange-star">★</span>
+                            <span class="orange-star">★</span>
+                        </h3>
+                        <p>
+                            Какие корни у вашей семьи? Кто был вашим прапрадедушкой, где жили ваши предки, 
+                            через какие события прошли поколения? Поделитесь своей семейной историей — вместе мы сохраняем память!
+                        </p>
+                        <p class="members">(182 участника)</p>
+                        <button>Участвовать</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reviews">
+                <h2>Отзывы</h2>
+                <div class="review">
+                    <p class="dat">27 июля 2024</p>
+                    <p class="nickname">
+                        <span><img class="avatar" src="images/family_icon.png" alt=""></span>
+                        Семья Веселовых
+                    </p>
+                    <p class="review-text">
+                        Участие в конкурсе <i>"Мгновения семьи"</i> стало для нас поводом поделиться очень весёлыми и тёплыми моментами.
+                        Большая благодарность организаторам за такую прекрасную возможность!
+                    </p>
+
+                    <button>Участвовать</button>
+                </div>
+                <div class="prev-next">
+                    <a class="prev">❮</a>
+                    <a class="next">❯</a>
+                </div>
+            </div>
+
+            <div class="subscribe-events">
+                <h2>Подписаться на рассылку</h2>
+                <form class="subscribe-events-form">
+                    <label for="sub-ev-email">Email</label>
+                    <input type="email" name="sub-ev-email" id="sub-ev-email" placeholder="Введите email" required>
+            
+                    <label for="sub-ev-chk" id="lbl-chck">
+                        <input type="checkbox" name="sub-ev-chk" id="sub-ev-chk" required>Я даю согласие на обработку персональных данных
+                    </label>
+
+                    <input type="submit" value="Подписаться" id="sub-ev-btn">
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-container">
+                <div class="contacts" id="contacts">
+                    <h3>Контакты</h3>
+                    <p>Телефон: <a href="tel:+74842234567">+7 (4842) 23-45-67</a></p>
+                    <p>Email: <a href="mailto:family@cosmos.ru">family@cosmos.ru</a></p>
+                </div>
+                <div class="site-nav">
+                    <h3>Навигация по сайту</h3>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="index-light.html">Главная-светлая </a></li>
+                        <li><a href="registration.html">Регистрация</a></li>
+                        <li><a href="competition.html">Конкурс</a></li>
+                        <li><a href="account.html">Личный кабинет</a></li>
+                        <li><a href="404.html">Страница не найдена</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

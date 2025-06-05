@@ -1,0 +1,21 @@
+tr {
+    border: 1px solid darkmagenta;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.title_cells {
+    background-color: darkmagenta;
+    color: white;
+}
+
+.lesson_cells {
+    background-color: rgb(204, 129, 204);
+    color: white;
+}
+
+.line_blue {
+    background-color: lightblue;
+}

@@ -1,0 +1,12 @@
+tr {
+    border: 1px solid palevioletred;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.title_cells {
+    background-color: chocolate;
+    color: white;
+}

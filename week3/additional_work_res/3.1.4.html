@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>3.1.4</title>
+        <style>
+            .scene {
+                position: relative;
+                width: 90vw;
+                height: 90vh;
+            }
+
+            .character {
+                position: absolute;
+                bottom: 10%;
+                width: 150px;
+                height: 330px;
+                background-image: url('https://www.codeandweb.com/static/f22bedf87ee5d5d8191891a98e55ea9a/58bc4/capguy-walk.png');
+                background-repeat: no-repeat;
+                animation: walk 2s steps(8) infinite, move-across 5s linear infinite;
+            }
+
+            @keyframes walk {
+                from {
+                    background-position: 0 0;
+                }
+                to {
+                    background-position: -736px 0; /* 72px * 8 */
+                }
+            }
+
+            @keyframes move-across {
+                0% {
+                    left: -72px;
+                }
+                100% {
+                    left: 90vw;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="scene">
+            <div class="character"></div>
+        </div>
+    </body>
+</html>

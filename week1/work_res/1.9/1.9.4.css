@@ -1,0 +1,66 @@
+header {
+    background-color: navy;
+    padding: 10px;
+}
+
+header a {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+main p {
+    border: 1px solid navy;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+main p img {
+    width: 200;
+    height: 200;
+}
+
+footer {
+    background-color: #8fddf2;
+    padding: 10px;
+}
+
+footer p {
+    background-color: white;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 2px solid navy;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+
+h2 {
+    background-color: lightblue;
+    color: purple;
+}
+
+.spec_a {
+    background-color: #2adede; 
+    border: 1px solid #2adede;
+}
+
+main i {
+    background-color: navy;
+    color: white;
+}

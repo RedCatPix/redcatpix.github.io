@@ -1,0 +1,19 @@
+tr {
+    border: 2px solid black;
+}
+
+td {
+    padding-left: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.tr_blue {
+    background-color: lightblue;
+}
+
+.day {
+    background-color: aqua;
+}

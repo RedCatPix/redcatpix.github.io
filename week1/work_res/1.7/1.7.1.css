@@ -1,0 +1,31 @@
+header img {
+    width: 70px;
+    height: 70px;
+}
+
+h1 img {
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p img {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    color: white;
+    background-color: orange;
+}
+
+header {
+    background-color: moccasin;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
